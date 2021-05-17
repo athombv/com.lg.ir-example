@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "id": "{{driverId}}:send_cmd",
+      "title": {
+        "en": "Send Command",
+        "nl": "Verzend Commando"
+      },
+      "args": [
+        {
+          "name": "cmd",
+          "type": "autocomplete"
+        }
+      ]
+    },
+    {
+      "id": "{{driverId}}:send_cmd_number",
+      "title": {
+        "en": "Set Channel",
+        "nl": "Zet op Kanaal"
+      },
+      "args": [
+        {
+          "name": "number",
+          "type": "number",
+          "min": 0,
+          "max": 9999
+        }
+      ]
+    }
+  ]
+}

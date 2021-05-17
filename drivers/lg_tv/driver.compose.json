@@ -1,0 +1,39 @@
+{
+	"name": {
+		"en": "LG TV"
+	},
+	"class": "tv",
+	"images": {
+		"small": "{{driverPath}}/assets/images/small.jpg",
+		"large": "{{driverPath}}/assets/images/large.jpg"
+	},
+	"capabilities": [
+		"onoff",
+		"volume_mute",
+		"volume_up",
+		"volume_down",
+		"channel_up",
+		"channel_down"
+	],
+	"pair": [
+		{
+			"id": "rf_ir_remote_learn",
+			"navigation": {
+				"next": "rf_ir_remote_add"
+			},
+			"options": {
+				"title": {
+					"en": "Connect your TV",
+					"nl": "Koppel je TV"
+				},
+				"instruction": {
+					"en": "Press next to connect your TV.",
+					"nl": "Druk op volgende om je TV te koppelen."
+				}
+			}
+		},
+		{
+			"id": "rf_ir_remote_add"
+		}
+	]
+}
