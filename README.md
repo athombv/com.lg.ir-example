@@ -9,4 +9,4 @@ Read the [Homey Apps SDK Documentation](https://apps.developer.homey.app) for mo
 ## What does this app do?
 
 This app uses `homey-rfdriver` to enable Homey to control LG Televisions using Infrared.
-Read more about Infrared on Homey at https://apps.developer.homey.app/wireless/infrared
+Read more about Infrared on Homey at https://apps.developer.homey.app/wireless/infrared.
